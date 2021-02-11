@@ -138,6 +138,9 @@ forward the packet to the correct output port
             * Used for downloads
 
 ## <font color='green'>What is distance vector touting? Explain with example.</font>
+* The distance vector routing algorithm is sometimes called by other names, most commonly the distributed Bellman-Ford routing algorithm and the Ford-Fulkerson algorithm.
+* In distance vector routing, each router maintains a routing table indexed by, and containing one entry for, each router in the subnet. This entry contains two parts: the preferred outgoing line to use for that destination and an estimate of the time or distance to that destination. The metric used might be number of hops, time delay in milliseconds, total number of packets queued along the path, or something similar.
+
 ![](img12.png)
 
 ## <font color='green'>Explain hierarchical routing with necessary example. </font>
