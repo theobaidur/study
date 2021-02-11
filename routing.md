@@ -84,6 +84,10 @@ forward the packet to the correct output port
 
 ## <font color='green'>Explain different types of packet fragmentation with diagram. Suppose a 19 byte packet to be transmitted along with 3 byte maximum segment length network. Show the segment numbering systems of the packet. The packet number is 15.</font>
 
+* Transparent Fragmentation - the router doing the fragmentation breaks up oversized packets and addresses them all to the same exit router. The exit router re-assembles the fragments and forwards original packet. This is called transparent fragmentation because it is invisible to the other networks in the path and to the hosts.
+
+* Nontransparent Fragmentation - once a packet is fragmented, it is not reassembled until it reaches the destination.
+
 ![](img7.png)
 
 ## <font color='green'>Explain briefly the functions of Routing processor.</font>
